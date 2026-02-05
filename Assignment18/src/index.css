@@ -1,0 +1,7 @@
+.center-list {
+  list-style-position: inside;
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+}
