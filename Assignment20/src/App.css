@@ -1,0 +1,204 @@
+/* Global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Header */
+.dashboard-title {
+  text-align: center;
+  color: #333;
+}
+
+.total-count {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Success message */
+.success-msg {
+  color: green;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Form */
+.form-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.form-card input,
+.form-card select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+.form-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Filter */
+.filter {
+  margin: 15px 0;
+}
+
+/* Employee Cards */
+.employee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.employee-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.employee-card h4 {
+  margin: 0;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: white;
+  margin-top: 5px;
+}
+
+.badge.active {
+  background-color: green;
+}
+
+.badge.inactive {
+  background-color: red;
+}
+
+/* Buttons */
+.btn-group {
+  margin-top: 10px;
+}
+
+.btn-group button {
+  margin-right: 8px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background: orange;
+  color: white;
+}
+
+.btn-delete {
+  background: crimson;
+  color: white;
+}
+/* ===== Checkbox Alignment ===== */
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* ===== Input UX ===== */
+input, select {
+  transition: all 0.2s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border: 1px solid #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
+}
+
+/* ===== Button Hover (Smart AI feel) ===== */
+button {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Employee Card Hover ===== */
+.employee-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.employee-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Badge polish ===== */
+.badge {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* ===== Filter dropdown ===== */
+.filter select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ===== Subtle page polish ===== */
+.container {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+/* Fix checkbox width issue */
+.checkbox-row input[type="checkbox"] {
+  width: auto;
+}
+
+/* Proper alignment */
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
+}
