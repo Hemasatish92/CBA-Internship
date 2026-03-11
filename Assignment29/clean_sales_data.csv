@@ -1,0 +1,6 @@
+transaction_id,store_id,store_name,city,product,quantity,price,total_amount,transaction_date
+1001,S01,Tech Store Mumbai,Mumbai,Laptop,1,65000,65000,2025-01-01
+1002,S02,Gadget Hub Delhi,Delhi,Mouse,2,500,1000,2025-01-02
+1003,S01,Tech Store Mumbai,Mumbai,Keyboard,1,1200,1200,2025-01-02
+1004,S02,Gadget Hub Delhi,Delhi,Monitor,1,12000,12000,2025-02-02
+1005,S03,Digital Zone Pune,Pune,Laptop,1,64000,64000,2025-03-02

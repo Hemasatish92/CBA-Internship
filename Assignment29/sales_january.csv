@@ -1,0 +1,4 @@
+transaction_id,store_id,product,quantity,price,transaction_date
+1001,S01,Laptop,1,65000,2025-01-01
+1002,S02,Mouse,2,500,2025-01-02
+1003,S01,Keyboard,1,1200,2025-01-02
