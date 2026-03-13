@@ -1,0 +1,5 @@
+2025-01-01 10:10:00 INFO user_login user_id=101
+2025-01-01 10:15:00 INFO product_view user_id=101
+2025-01-01 10:20:00 INFO purchase user_id=102
+2025-01-01 10:25:00 INFO user_login user_id=103
+2025-01-01 10:30:00 INFO purchase user_id=101
