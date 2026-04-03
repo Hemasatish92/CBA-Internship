@@ -1,0 +1,5 @@
+txn_id,region,product,amount
+1,West,Mobile,20000
+2,East,Laptop,50000
+3,West,Tablet,15000
+4,East,Mobile,22000
